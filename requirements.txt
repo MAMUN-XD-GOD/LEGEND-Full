@@ -1,9 +1,5 @@
 numpy
 pandas
-fastapi
-uvicorn
-websockets
-aiosqlite
-apscheduler
-aiohttp
-python-dateutil
+scikit-learn
+xgboost
+joblib
