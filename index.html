@@ -1,12 +1,22 @@
 <!doctype html>
 <html>
-<head><meta charset='utf-8'><title>QuantumApex Dashboard</title><link rel='stylesheet' href='styles.css'></head>
+<head>
+<meta charset='utf-8'>
+<title>QuantumApex PRO Dashboard</title>
+<link rel='stylesheet' href='styles.css'>
+</head>
 <body>
-<header><h1>QuantumApex</h1><p class='subtitle'>Live signals</p></header>
+<header><h1>QuantumApex PRO</h1><p class='subtitle'>Live Signals & Charts</p></header>
 <main>
-  <section class='card'><h2>Status</h2><div id='status'>Offline</div></section>
-  <section class='card'><h2>Recent Signals</h2><ul id='signals'></ul></section>
+  <section class='card'>
+    <h2>Live Chart (candles)</h2>
+    <div id='chart'>Chart placeholder — integrate lightweight chart library (e.g., lightweight-charts)</div>
+  </section>
+  <section class='card'>
+    <h2>Signals Queue</h2>
+    <ul id='queue'></ul>
+  </section>
 </main>
-<script src='dashboard.js'></script>
+<script src='dashboard_pro.js'></script>
 </body>
 </html>

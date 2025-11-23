@@ -1,3 +1,9 @@
-prometheus_client
+numpy
+pandas
+scikit-learn
+xgboost
+joblib
+aiohttp
+cryptography
 psutil
-requests
+prometheus_client
