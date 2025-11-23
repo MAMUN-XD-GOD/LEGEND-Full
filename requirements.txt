@@ -1,0 +1,9 @@
+numpy
+pandas
+fastapi
+uvicorn
+websockets
+aiosqlite
+apscheduler
+aiohttp
+python-dateutil
