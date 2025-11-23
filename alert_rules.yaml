@@ -1,0 +1,10 @@
+groups:
+- name: quantumapex_alerts
+  rules:
+  - alert: NoSignalsForLong
+    expr: quantum_signals_total == 0
+    for: 1h
+    labels:
+      severity: warning
+    annotations:
+      summary: 'No signals emitted for 1 hour'

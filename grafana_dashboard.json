@@ -1,1 +1,34 @@
-{}
+{
+  "dashboard": {
+    "title": "QuantumApex Overview",
+    "panels": [
+      {
+        "title": "Uptime",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "quantum_uptime_seconds"
+          }
+        ]
+      },
+      {
+        "title": "Signals Total",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "quantum_signals_total"
+          }
+        ]
+      },
+      {
+        "title": "CPU",
+        "type": "gauge",
+        "targets": [
+          {
+            "expr": "quantum_cpu_percent"
+          }
+        ]
+      }
+    ]
+  }
+}
